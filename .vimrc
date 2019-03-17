@@ -1,4 +1,5 @@
 filetype plugin indent on
+syntax on
 
 " tabs
 "set smarttab
@@ -29,13 +30,29 @@ set wildmenu
 " remove whitespace at ends of lines on file write
 autocmd BufWritePre /* :%s/\s\+$//e
 
-" color scheme
-colorscheme base16-3024
-highlight Visual ctermfg=8
-
 " for multi file substitutions
 set hidden
 
+" ruler
+set ruler
+
+""""""""""""""""""""""""""""""""""""""""""
+" colors
+""""""""""""""""""""""""""""""""""""""""""
+" color scheme on ubuntu
+" dependancy on https://github.com/chriskempson/base16-vim
+colorscheme base16-3024
+highlight Visual ctermfg=8
+
+" color scheme on mac
+" dependancy on https://github.com/vbwx/base16-terminal-app
+"colorscheme base16-3024
+"highlight Visual ctermfg=8
+"highlight TabLineSel ctermfg=6
+"highlight DiffAdd ctermfg=6
+"highlight GitGutterAdd ctermfg=6
+"highlight SignifySignAdd ctermfg=6
+"highlight LineNr ctermfg=6
 
 """"""""""""""""""""""""""""""""""""""""""
 " maps and leaders
@@ -58,13 +75,6 @@ map <leader>l :tabnext<cr>
 map <leader>j :tabprevious<cr>
 map <leader>L :tabm +1<cr>
 map <leader>J :tabm -1<cr>
-
-" easy pairs
-"imap <leader>' ''<ESC>i
-"imap <leader>" ""<ESC>i
-"imap <leader>( ()<ESC>i
-"imap <leader>[ []<ESC>i
-"imap <leader>{ {}<ESC>i
 
 " write and quit
 map <leader>w :write<cr>

@@ -1,0 +1,4 @@
+" dependancy on https://github.com/vbwx/base16-terminal-app
+if !exists('g:colors_name') || g:colors_name != 'base16-3024'
+  colorscheme base16-3024
+endif
