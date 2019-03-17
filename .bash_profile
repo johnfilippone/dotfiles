@@ -13,6 +13,7 @@ alias st="git status"
 alias br="git branch"
 
 # colors and prompt
+# dependency on https://github.com/chriskempson/base16-shell.git
 ~/.config/base16-shell/scripts/base16-3024.sh
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
