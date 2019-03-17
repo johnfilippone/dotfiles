@@ -1,3 +1,6 @@
 alias up="cd ../"
 alias up2="cd ../../"
-alias amer="ftp newsite.amergold.com"
+
+#git aliases
+alias st="git status"
+alias br="git branch"
