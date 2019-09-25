@@ -46,6 +46,7 @@ highlight Visual ctermfg=8
 
 " color scheme on mac
 " dependancy on https://github.com/vbwx/base16-terminal-app
+" dependancy on https://github.com/chriskempson/base16-vim
 "colorscheme base16-3024
 "highlight Visual ctermfg=8
 "highlight TabLineSel ctermfg=6
