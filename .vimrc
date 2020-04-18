@@ -55,6 +55,9 @@ highlight Visual ctermfg=8
 "highlight SignifySignAdd ctermfg=6
 "highlight LineNr ctermfg=6
 
+"make sure to run this for typescript syntax highlighting
+"git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/pack/typescript/start/typescript-vim
+
 """"""""""""""""""""""""""""""""""""""""""
 " maps and leaders
 """"""""""""""""""""""""""""""""""""""""""
